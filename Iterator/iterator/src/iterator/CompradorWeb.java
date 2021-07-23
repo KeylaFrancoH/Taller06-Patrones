@@ -10,11 +10,19 @@ package iterator;
  *
  * @author ab_al
  */
-public class CompradorWeb implements interfacee.Usuario{
-
-
-    public void navegarProductosDisponibles() {
+public class CompradorWeb implements interfacee.ArticuloIterator{
+    private ArticuloWeb articuloweb;
+    @Override
+    public boolean hasNext() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public Object next() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
+   
     
 }

@@ -5,17 +5,17 @@
  */
 package iterator;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ab_al
  */
-public class Iterator {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Articulo {
+    private String codigo;
+    private ArrayList<Articulo> listaArticulo;
     
+    public ArrayList<Articulo> getListaArticulo(){
+    return this.listaArticulo;
+    }
 }

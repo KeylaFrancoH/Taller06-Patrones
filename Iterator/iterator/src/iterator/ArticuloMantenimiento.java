@@ -5,14 +5,17 @@
  */
 package iterator;
 
+import interfacee.ArticuloIterator;
+
 /**
  *
  * @author ab_al
  */
-public class ConcreteCollection implements interfacee.IterableCollection{
-
+public class ArticuloMantenimiento implements interfacee.ColeccionProductos{
+    private asistenteMantenimiento asitenteM;
+    private Articulo articulo;
     @Override
-    public void getIterator() {
+    public ArticuloIterator crearIteradorArticulo(String codigo) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

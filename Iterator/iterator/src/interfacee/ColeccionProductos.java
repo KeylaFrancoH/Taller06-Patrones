@@ -9,6 +9,7 @@ package interfacee;
  *
  * @author ab_al
  */
-public interface Usuario {
-
+public interface ColeccionProductos  {
+    public ArticuloIterator crearIteradorArticulo(String codigo);
+    
 }

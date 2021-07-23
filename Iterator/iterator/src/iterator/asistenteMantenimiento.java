@@ -9,11 +9,19 @@ package iterator;
  *
  * @author ab_al
  */
-public class asistenteMantenimiento implements interfacee.Usuario{
+public class asistenteMantenimiento implements interfacee.ArticuloIterator{
 
-
-    public void navegarProductosReparacion() {
+    @Override
+    public boolean hasNext() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public Object next() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
+
     
 }

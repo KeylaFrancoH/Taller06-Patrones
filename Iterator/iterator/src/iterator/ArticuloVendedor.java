@@ -5,22 +5,18 @@
  */
 package iterator;
 
+import interfacee.ArticuloIterator;
+
 /**
  *
  * @author ab_al
  */
-public class Vendedor implements interfacee.ArticuloIterator {
-
+public class ArticuloVendedor implements interfacee.ColeccionProductos{
+    private Vendedor vendedor;
+    private Articulo articulo;
     @Override
-    public boolean hasNext() {
+    public ArticuloIterator crearIteradorArticulo(String codigo) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
-    @Override
-    public Object next() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-
     
 }
