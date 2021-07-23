@@ -11,8 +11,8 @@ package iterator;
  */
 public class Proveedor implements interfacee.Usuario{
 
-    @Override
-    public void navegarProductosDisponibles() {
+
+    public void navegarProductosFallas() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

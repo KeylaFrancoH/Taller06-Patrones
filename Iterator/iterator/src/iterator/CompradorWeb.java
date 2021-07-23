@@ -12,7 +12,7 @@ package iterator;
  */
 public class CompradorWeb implements interfacee.Usuario{
 
-    @Override
+
     public void navegarProductosDisponibles() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

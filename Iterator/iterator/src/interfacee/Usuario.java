@@ -10,5 +10,5 @@ package interfacee;
  * @author ab_al
  */
 public interface Usuario {
-    public void navegarProductosDisponibles();
+
 }
