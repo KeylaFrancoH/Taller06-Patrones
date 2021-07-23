@@ -5,15 +5,14 @@
  */
 package iterator;
 
-
 /**
  *
  * @author ab_al
  */
-public class CompradorWeb implements interfacee.Usuario{
+public class Proveedor implements interfacee.Usuario{
 
 
-    public void navegarProductosDisponibles() {
+    public void navegarProductosFallas() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

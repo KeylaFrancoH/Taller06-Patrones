@@ -9,6 +9,11 @@ package iterator;
  *
  * @author ab_al
  */
-public class Vendedor {
+public class Vendedor implements interfacee.Usuario {
+
+
+    public void navegarProductosDisponiblesTienda() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

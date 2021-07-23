@@ -5,15 +5,14 @@
  */
 package iterator;
 
-
 /**
  *
  * @author ab_al
  */
-public class CompradorWeb implements interfacee.Usuario{
+public class ConcreteCollection implements interfacee.IterableCollection{
 
-
-    public void navegarProductosDisponibles() {
+    @Override
+    public void getIterator() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

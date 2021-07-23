@@ -9,6 +9,7 @@ package interfacee;
  *
  * @author ab_al
  */
-public interface Usuario {
-
+public interface Iterator {
+    public boolean hasNext();
+    public Object next();
 }

@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 package interfacee;
-
+import interfacee.Iterator;
 /**
  *
  * @author ab_al
  */
-public interface Usuario {
+public interface IterableCollection {
+    public void getIterator();
 
 }
