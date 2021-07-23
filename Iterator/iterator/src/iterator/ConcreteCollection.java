@@ -9,10 +9,10 @@ package iterator;
  *
  * @author ab_al
  */
-public class Vendedor implements interfacee.Usuario {
+public class ConcreteCollection implements interfacee.IterableCollection{
 
     @Override
-    public void navegarProductosDisponibles() {
+    public void getIterator() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

@@ -9,7 +9,7 @@ package iterator;
  *
  * @author ab_al
  */
-public class Vendedor implements interfacee.Usuario {
+public class asistenteMantenimiento implements interfacee.Usuario{
 
     @Override
     public void navegarProductosDisponibles() {
